@@ -2,6 +2,8 @@ package school.mjc.stage0.conditions.task5;
 
 public class SwitchDaysInMonthPrinter {
     public void amountOfDays(int month) {
+        int days[] = {31,28,31,30,31,30,31,31,30,31,30,31};
+
         switch (month) {
             case 1:
             case 3:
@@ -17,7 +19,7 @@ public class SwitchDaysInMonthPrinter {
             case 9:
             case 11:
                 System.out.println(30);
-                break;
+                 break;
             case 2:
                 System.out.println(28);
                 break;
